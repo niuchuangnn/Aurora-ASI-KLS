@@ -12,4 +12,8 @@
       </list>
     </option>
   </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="Nosetests" />
+    <option name="PROJECT_TEST_RUNNER" value="Nosetests" />
+  </component>
 </module>

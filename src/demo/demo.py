@@ -43,7 +43,7 @@ def generateGridPatchData(im, gridList):
     gridPatchData = []
     for grid in gridList:
         if im.ndim == 2:
-            patch = im[grid[0]:(grid[0]+grid[2]), grid[1]:(grid[1]+grid[3])].copy()     # grid format: [y, x, h, w] (y: row, x: column)
+            patch = im[int(grid[0]):int(grid[0]+grid[2]), int(grid[1]):int(grid[1]+grid[3])].copy()     # grid format: [y, x, h, w] (y: row, x: column)
         if im.ndim == 3:
             patch = im[grid[0]:(grid[0] + grid[2]), grid[1]:(grid[1] + grid[3]), :].copy()  # grid format: [y, x, h, w]
         gridPatchData.append(patch)
