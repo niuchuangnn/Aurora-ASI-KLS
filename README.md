@@ -20,5 +20,29 @@ are not uesd by this project, but you must make sure that they can run normally 
 ```
 git clone https://github.com/niuchuangnn/Aurora-ASI-KLS
 cd $KLS_ROOT/selective_search_py
+wget http://cs.brown.edu/~pff/segment/segment.zip; unzip segment.zip; rm segment.zip
+cmake .
+make
+
+cd &KLS_ROOT/fast-rcnn/caffe-fast-rcnn
+make all
+make pycaffe
+cd &KLS_ROOT/fast-rcnn/lib
+make
 
 ```
+2. Download the region detection model: [vcc_cnn_m_fast_rcnn_b500_iter_10000.caffemodel](https://1drv.ms/u/s!ArnlNXPnKNAKjQWsM4hsLuvu8cNW)
+
+```
+cd $KLS_ROOT/Data
+mkdir -p Data/region_classification
+```
+Put the downloaded model into this folder.
+
+3. Run demo.
+
+```
+cd KLS_ROOT/src/demo
+python demo.py
+```
+You will see:
