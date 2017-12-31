@@ -46,3 +46,11 @@ cd KLS_ROOT/src/demo
 python demo.py
 ```
 You will see:
+```
+classification time: 1.2338631897
+segmentation time: 1.77530801296
+```
+![arc](https://github.com/niuchuangnn/Aurora-ASI-KLS/blob/master/Data/demo_examples/a_r.png)
+![drapery](https://github.com/niuchuangnn/Aurora-ASI-KLS/blob/master/Data/demo_examples/D_r.png)
+![radial](https://github.com/niuchuangnn/Aurora-ASI-KLS/blob/master/Data/demo_examples/R_r.png)
+![hot-spot](https://github.com/niuchuangnn/Aurora-ASI-KLS/blob/master/Data/demo_examples/HS_r.png)
