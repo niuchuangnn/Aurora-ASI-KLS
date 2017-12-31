@@ -42,7 +42,7 @@ Put the downloaded model into this folder.
 3. Run demo.
 
 ```
-cd KLS_ROOT/src/demo
+cd $KLS_ROOT/src/demo
 python demo.py
 ```
 You will see:
