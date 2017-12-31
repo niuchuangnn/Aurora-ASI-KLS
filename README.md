@@ -1,4 +1,4 @@
-# Weakly Supervised Semantic Semantic Segmentation for Join Key Local Structure Localization and Classification of Aurora Image
+# Weakly Supervised Semantic Segmentation for Join Key Local Structure Localization and Classification of Aurora Image
 By Chuang Niu, Jun Zhang, Qian Wang, and Jimin Liang
 
 ## Introduction
