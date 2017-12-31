@@ -15,7 +15,7 @@ It is noted that the original codes of [selective search](https://github.com/Bra
 are not directly uesd by this project, but you must make sure that they can run normally before implementation of this project.
 
 ### Get started
-1. Get the code. We will call the diretory that you cloned Aurora-ASI-KLS into `$KLS_ROOT`
+1. Get the code. We will call the directory that you cloned Aurora-ASI-KLS into `$KLS_ROOT`
 
 ```
 git clone https://github.com/niuchuangnn/Aurora-ASI-KLS
@@ -35,7 +35,7 @@ make
 
 ```
 cd $KLS_ROOT/Data
-mkdir -p Data/region_classification
+mkdir -p region_classification/output
 ```
 Put the downloaded model into this folder.
 
