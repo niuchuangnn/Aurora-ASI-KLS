@@ -2,11 +2,11 @@
 By Chuang Niu, Jun Zhang, Qian Wang, and Jimin Liang
 
 ## Introduction
-TO DO
+A weakly supervised semantic segmentation method for joint KLS localization and classification of aurora image is implememted in this project, and the related paper is submitted to TGRS. More details will be descibed. 
 
-## Installation
+## Installation(Tested on x64 Unbuntu 14.04 environment)
 
-### Requirements (Tested on x64 Unbuntu 14.04 environment)
+### Requirements
 This project is based on:
 * [selective search of python version](https://github.com/BradNeuberg/selective_search_py)
 * [fast-rcnn](https://github.com/rbgirshick/fast-rcnn)
