@@ -2,7 +2,7 @@
 By Chuang Niu, Jun Zhang, Qian Wang, and Jimin Liang
 
 ## Introduction
-A weakly supervised semantic segmentation method for joint KLS localization and classification of aurora image is implememted in this project, and the related paper is submitted to TGRS. More details will be descibed. 
+A weakly supervised semantic segmentation method for joint KLS localization and classification of aurora image is implemenmted in this project, and the related paper is submitted to TGRS. More details will be descibed. 
 
 ## Installation(Tested on x64 Unbuntu 14.04 environment)
 
